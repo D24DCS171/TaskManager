@@ -1,0 +1,79 @@
+body{
+
+  margin:0;
+
+  background:#f4f4f4;
+
+  font-family:Arial;
+
+}
+
+.container{
+
+  width:80%;
+
+  margin:auto;
+
+  margin-top:40px;
+
+}
+
+h1{
+
+  text-align:center;
+
+}
+
+.addTask{
+
+  display:flex;
+
+  gap:10px;
+
+  margin-bottom:20px;
+
+}
+
+input{
+
+  flex:1;
+
+  padding:10px;
+
+}
+
+button{
+
+  padding:10px 20px;
+
+  cursor:pointer;
+
+}
+
+table{
+
+  width:100%;
+
+  background:white;
+
+  border-collapse:collapse;
+
+}
+
+th,td{
+
+  border:1px solid #ddd;
+
+  padding:12px;
+
+  text-align:center;
+
+}
+
+th{
+
+  background:#007bff;
+
+  color:white;
+
+}
