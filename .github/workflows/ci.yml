@@ -1,0 +1,17 @@
+name: Task Manager CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v4
+
+      - name: Build Docker Containers
+        run: docker compose build
